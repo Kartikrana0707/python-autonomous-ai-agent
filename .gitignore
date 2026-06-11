@@ -1,0 +1,16 @@
+# Ignore Environment Secret Files (CRITICAL - Keeps API keys safe)
+.env
+functions/.env
+
+# Ignore Python Virtual Environments
+.venv/
+
+# Ignore Python Cache files
+**/__pycache__/
+*.pyc
+
+# Ignore environment config & tool locks
+.lock
+CACHEDIR.TAG
+pyvenv.cfg
+.python-version
