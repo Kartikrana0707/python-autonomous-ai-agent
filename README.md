@@ -65,9 +65,9 @@ Create a file named .env in the root folder of the project.
 
 Open it in a text editor and add your key like this:
 
-Plaintext
+
 GEMINI_API_KEY=your_actual_gemini_api_key_here
-(Don't worry, the .gitignore file is pre-configured to keep this file hidden from GitHub!)
+
 
 🚀 How to Run and Test the Agent
 You trigger the agent by executing main.py and passing your coding instructions as a string argument.
